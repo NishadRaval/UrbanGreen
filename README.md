@@ -55,36 +55,6 @@ UrbanGreen is built using modern cross-platform technologies.
 
 ---
 
-## 🏗️ App Architecture
-
-The project follows a modular structure:
-
-
-lib/
-├ core/
-│ ├ services/
-│ │ ├ firestore_service.dart
-│
-├ features/
-│ ├ garden/
-│ │ ├ garden_screen.dart
-│ │ ├ add_post_screen.dart
-│
-│ ├ scan/
-│ │ ├ scan_screen.dart
-│
-│ ├ barter/
-│ │ ├ barter_screen.dart
-│
-│ ├ profile/
-│
-└ main.dart
-
-
-This structure separates **features, services, and UI components** to keep the code maintainable.
-
----
-
 ## ☁️ Firebase Integration
 
 UrbanGreen uses Firebase Firestore for storing and retrieving data in real time.
